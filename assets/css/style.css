@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+*{
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+.topHeader{background: #f9f9f9;}
+.topSocialLink{border-left: 1px solid #999;padding-left:  3%;border-right: 1px solid #999;margin-right: 7%;}
+.topSocialLink a{padding-right: 8%;text-align: center;}
+.topSocialLink a li{}
+
+p{
+  color: #999;
+}
+.topSocialLink li i{
+  color: #a0a0a0;
+    transition: all .7s ease;
+    -webkit-transition: all .7s ease;
+    -moz-transition: all .7s ease;
+}
+.topSocialLink li i:hover{
+  color:#f69165;
+}
+.topManu{text-align: right;}
+.topManu ul{list-style: none;}
+.topManu li{display: inline-block;}
+.topManu li i{padding-right: 5px;color: #ea9f14;}
+.topManu li a {
+  text-decoration: blink;
+   color: #999;
+   border-right:1px solid #999; 
+   padding-right: 10px;
+}
+.topSe{}
+.topSe form{}
+.topSe form input[type="text"]{
+  border: 0px;
+width: 85px;
+background: #f9f9f9;
+}
+.topSe form button[type="submit"]{
+  opacity: 0.4;
+background: #f9f9f9;
+border: 0px;
+border-right: 1px solid #999;
+}
+.myNav{
+  background: #00cce1;
+}
+.navColor{
+  color: #fff;
+  transition: all 0.7s ease;
+  -webkit-transition: all 0.7s ease;
+  -moz-transition: all 0.7s ease;
+}
+.navColor:hover{
+  color: #f69165;
+}
+.cart{
+  color: #fff;
+position: relative;
+}
+.cart ul{
+  list-style: none;
+}
+.cart ul li{
+  display: inline-block;
+position: absolute;
+left: -100%;
+top: -40%;
+}
+.rel{
+  position: absolute;
+top: 0%;
+left: 55%;
+}
+.re2{
+
+  position: relative;
+  color: #fff;
+}
+.re2 ul{list-style: none;}
+.re2 ul li{position: absolute;top: -60%;left: -58%;border: 1px solid;font-size: 10px;border-radius: 30px;background: #f69165;}
+
+.appoin{
+  position: relative;
+}
+.appoin::before{
+  content: "";
+  position: absolute;
+  background: #f69165;
+  width: 160px;
+  height: 70px;
+  transform: skew(-15deg);
+  top:-95%;
+}
+.appoin a{
+  position: relative;
+color: #fff;
+font-size: 16px;
+top: 15%;
+left: 20%;
+text-decoration: none;
+}
+.sliderRel{
+    position:  relative;
+}
+.sliderText{
+    position:  absolute;
+    left:  50%;
+    top: 50%;
+    transform: translate(-40%,-50%);
+    width: 70%;
+}
+.sliderText h3{
+    display:  inline-block;
+    text-transform:  uppercase;
+    border: 1px solid #00cce1;
+    padding:  5px;
+    background:  #00cce1;
+    color:  #fff;
+}
+.sliderText h1{
+    text-transform:  uppercase;
+    border: 1px solid #f69165;
+    padding:  5px;
+    background:  #f69165;
+    color:  #fff;
+}
+.sliderText p{}
+.silderLink{
+    position:  absolute;
+    bottom: 15%;
+    left:  15%;
+}
+.silderLink ul{
+    list-style:  none;
+}
+.silderLink ul li{
+    display: inline-block;
+    padding-left:  10px;
+}
+.silderLink ul li a{
+    padding:  10px 20px;
+    border: 1px solid #00cce1;
+    background:  #00cce1;
+    text-transform:  uppercase;
+    color:  #fff;
+    text-decoration:  blink;
+    transition: all 0.6s ease;
+    -webkit-transition: all 0.6s ease;
+    -moz-transition: all 0.6s ease;
+}
+.silderLink ul li a:hover{
+  background:#f69165;
+  border:1px solid #f69165; 
+}
+.agencyHeader{
+    padding-top:  70px;
+    color: #736767;
+}
+.agencyHeader h5{
+    color:  black;
+}
+.agencyHeader p{
+    width:  80%;
+    padding-bottom:  50px;
+}
+.aText{
+    text-align: left;
+    padding-bottom:  60px;
+}
+.aText i{
+    color: #f69165;
+}
+.aText h6{
+    color:  black;
+}
+.aText p{
+    color: #947c7c;
+}
+.ourDoctor{
+    background: #f9f9f9;
+    padding-top: 5%;
+}
+.ourDocText{
+    width: 50%;
+}
+.ourDocText h4{
+    font-weight:  bolder;
+    font-size:  30px;
+}
+.ourDocText img{}
+.ourDocText p{
+    padding:  10px 0;
+    color:  #999;
+}
+.docProtfolio{
+}
+.doctor{
+  position: relative;
+  border-bottom: 3px solid #00b7ef;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+}
+.doctor::before{
+  content: "";
+    position: absolute;
+    background: black;
+    width: 97%;
+    height: 74%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    margin-left: 17px;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+}
+.doctor img{}
+.doctor h5{
+    padding-top:  10px;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+}
+.doctor p{}
+.doctor ul{
+    list-style:  none;
+    position:  absolute;
+    top: 40%;
+    left: 45%;
+    transform: translate(-45%,-40%);
+}
+.doctor ul li{
+    display:  inline-block;
+    padding:  0 10px;
+    font-size:  20px;
+    color:  #fff;
+}
+.doctor ul li a{
+    padding:  5px;
+    border:  1px solid #fff;
+    color:#fff;
+    opacity: 0;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+}
+.doctor:hover h5{
+   color: #f69165;
+}
+.doctor:hover::before{
+  opacity: 0.5;
+}
+.doctor:hover a{
+  opacity: 1;
+}
+.doctor a:hover{
+  color:#f69165;
+  border:1px solid #f69165;
+}
+.doctor:hover{
+  border-bottom:3px solid #f69165;
+}
+.services{
+    margin-top:  25px;
+    background:  #fff;
+    margin-bottom:35px;
+}
+.serText{
+    padding-top:  40px;
+    width:  50%;
+}
+.serText h5{
+    font-size: 30px;
+}
+.serText img{}
+.serText p{}
+.servicesDiv{
+    border: 2px solid #999;
+    margin-bottom:  5px;
+    transition: all 0.7s ease;
+    -webkit-transition: all 0.7s ease;
+    -moz-transition: all 0.7s ease;
+}
+.servicesDiv i{
+    margin:  0;
+    display:  inline-block;
+    color: #f69165;
+}
+.servicesDiv h5{
+    display:  inline-block;
+    padding-left:  5px;
+    transition: all 0.7s ease;
+    -webkit-transition: all 0.7s ease;
+    -moz-transition: all 0.7s ease;
+}
+.servicesDiv p{}
+.servicesDiv button{
+    background:  #fff;
+    transition: all 0.7s ease;
+    -webkit-transition: all 0.7s ease;
+    -moz-transition: all 0.7s ease;
+}
+.servicesDiv:hover{
+  border: 2px solid #f69165;
+}
+.servicesDiv:hover h5{
+  color:#f69165;
+}
+.servicesDiv:hover button{
+  color:#f69165;
+}
+.plan{
+    background:  #fff;
+    padding: 60px 0;
+    background:  #f9f9f9;
+}
+.planText{
+    width: 45%;
+    padding: 40px 0;
+}
+.planText h3{}
+.planText img{}
+.planText p{
+    margin-bottom:  25px;
+}
+.planBox{
+    margin-top:  25px;
+    border:3px solid #fff;
+    padding: 0;
+    transition: all 0.7s ease;
+    -moz-transition: all 0.7s ease;
+    -webkit-transition: all 0.7s ease;
+}
+.planBox h4{
+    font-size:  35px;
+    padding-top:  20px;
+    color: #00b6ee;
+    transition: all 0.7s ease;
+    -moz-transition: all 0.7s ease;
+    -webkit-transition: all 0.7s ease;
+}
+.planBox p{}
+.planBox button{
+    background: #00b6ee;
+    width:  110px;
+    transition: all 0.7s ease;
+    -moz-transition: all 0.7s ease;
+    -webkit-transition: all 0.7s ease;
+}
+.money{
+    background:  #fff;
+    width:  100%;
+    color: #00b6ee;
+    transition: all 0.7s ease;
+    -moz-transition: all 0.7s ease;
+    -webkit-transition: all 0.7s ease;
+}
+.money h2{}
+.money p{
+    color: #00b6ee;
+    transition: all 0.7s ease;
+    -moz-transition: all 0.7s ease;
+    -webkit-transition: all 0.7s ease;
+}
+.planBox:hover{
+border:3px solid #f69165;
+}
+.planBox:hover h4{
+  color: #f69165;
+}
+.planBox:hover button{
+  background: #f69165;
+  color: #fff;
+}
+.planBox:hover .money{
+  background: #f69165;
+  color: #fff;
+}
+.planBox:hover .money p{
+  color: #fff;
+}
